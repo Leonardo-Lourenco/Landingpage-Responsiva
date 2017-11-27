@@ -1,0 +1,309 @@
+*
+{
+	margin:0;
+	padding: 0;
+}
+
+.banner
+{
+	background : url("../img/q.jpg");
+	width: 100%;
+	background-size: cover;
+}
+
+.top-bar
+{
+	background-color: #000;
+	display: -webkit-box;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	width: 100%;
+	height: auto;
+
+}
+
+.logo
+{
+	color: #fff;
+	-webkit-box-flex: 1;
+	-ms-flex:1;
+	flex:1;
+	font-size: 40px;
+	padding: 18px;
+	text-transform: uppercase;
+}
+
+.menu
+{
+	-webkit-box-flex:3;
+	-webkit-flex:3;
+	-ms-flex:3;
+	flex:3;
+}
+
+.menu ul
+{
+	display:-webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	list-style: none;
+	margin-top:30px;
+	-webkit-box-orient:horizontal;
+	-webkit-box-direction:normal;
+    -ms-flex-flow:row wrap;
+    flex-flow: row wrap;
+}
+
+.menu ul li
+{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	-ms-flex:1;
+	flex:1;
+	text-align: center;
+}
+
+.menu ul li a
+{
+	color:#fff;
+	font-size:20px;
+	text-decoration:none;
+}
+
+/*BANNER*/
+.banner-text
+{
+	display:-webkit-box;
+	display: -webkit-flex;
+	display:-ms-flexbox;
+	display: flex;
+	padding: 15% 0;
+}
+
+.banner-text-items
+{
+	color: #fff;
+	margin:auto;
+	text-align: center;
+	width: 50%;
+}
+
+.banner-text-items h2
+{
+	font-size:3em;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+}
+
+.banner-text-items p
+{
+	font-size:18px;
+}
+
+/*MAIN-CONTENT*/
+
+.main-content
+{
+   display: -webkit-box;
+   display:-webkit-flex;
+   display:-ms-flexbox;
+   display: flex;
+   -webkit-box-orient:horizontal;
+   -webkit-box-direction:normal;
+   -ms-flex-flow:row wrap;
+   flex-flow: row wrap;
+   padding: 5% 0;
+
+}
+
+.main1
+{
+	-webkit-box-flex:1;
+	-webkit-flex:1;
+	-ms-flex:1;
+	flex:1;
+	padding: 3%;
+	text-align: center;
+}
+
+/*contact*/
+.contact-items
+{
+	display:-webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align:center;
+	-webkit-align-items:center;
+	-ms-flex-align:center;
+	align-items:center;
+	-webkit-box-orient:vertical;
+   -webkit-box-direction:normal;
+    -webkit-flex-direction:column;
+   -ms-flex-direction:column;
+   flex-direction:column;
+}
+
+.contact
+{
+	background: url(../img/co.jpg);
+	padding: 80px 0;
+	position: relative;
+	z-index:1;
+}
+
+.contact:before
+{
+	position: absolute;
+	content: '';
+	height: 100%;
+	width: %;
+	top:0;
+	left: 0;
+	background:rgba(0,0,0,0.5);
+	z-index: -1;
+}
+
+.contact-items h2
+{
+	color:#fff;
+	font-size: 40px;
+	margin-bottom: 18px;
+}
+
+.contact-items input[type="text"]
+{
+	border-radius:10px;
+	margin-bottom: 15px;
+	padding: 15px;
+	width:50%;
+}
+
+.contact-items textarea
+{
+	border-radius: 10px;
+	height: 150px;
+	padding: 15px;
+	width: 50%;
+}
+
+.contact-items a
+{
+	background:#da4b29;
+	color: #fff;
+	display: block;
+	font-size: 20px;
+	margin-top:25px;
+	padding: 15px 80px;
+	text-decoration:none;
+	text-transform: uppercase;
+	border-radius: 10px;
+}
+
+@media all and (max-width: 500px)
+{
+	.top-bar
+	{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		text-align: center;
+	}
+
+	.logo
+	{
+		padding: 18px 0 0;
+	}
+
+	.menu ul
+	{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		margin-top: 0;
+	}
+
+	.menu ul li
+	{
+		padding: 5px;
+	}
+
+	.banner-text-items
+	{
+		width: 100%;
+	}
+    
+    .banner-text-items h2
+    {
+    	font-size: 1.5em;
+    }
+
+    .main-content
+    {
+    	-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		
+    }
+}
+
+@media all and (max-width: 800px)
+{
+	.top-bar
+	{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		text-align: center;
+	}
+
+	.logo
+	{
+		padding: 18px 0 0;
+	}
+
+	.menu ul
+	{
+		-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		margin-top: 0;
+	}
+
+	.menu ul li
+	{
+		padding: 5px;
+	}
+
+	.banner-text-items
+	{
+		width: 100%;
+	}
+    
+    .banner-text-items h2
+    {
+    	font-size: 1.5em;
+    }
+
+    .main-content
+    {
+    	-webkit-box-orient:vertical;
+		-webkit-box-direction:normal;
+		-webkit-flex-direction:column;
+		-ms-flex-direction:column;
+		flex-direction:column;
+		
+    }
+}
