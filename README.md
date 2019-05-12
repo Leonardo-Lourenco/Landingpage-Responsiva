@@ -1,4 +1,4 @@
-# Landipage Responsiva
+# Landing Page Responsiva
 
 Landpage Responsiva criada utilizando HTML5, CSS3, JavaScript, jQuery.
 
